@@ -1,2 +1,7 @@
 theme: jekyll-theme-minimal
 title: Lumi Entertainment &copy; 2017
+highlighter: rouge
+encoding: utf-8
+repository: lumi-entertainment/lumi-entertainment.github.io
+github: lumi-entertainment/lumi-entertainment.github.io
+build_revision: now
