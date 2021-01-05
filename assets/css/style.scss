@@ -2,3 +2,74 @@
 ---
 
 @import "{{ site.theme }}";
+@font-face {
+  font-family: 'Holtwood One SC'; /*a name to be used later*/
+  src: url('/assets/font/HoltwoodOneSC.ttf'); /*URL to font*/
+}
+$font-stack:    "Holtwood One SC", "Verdana", sans-serif;
+$primary-color: #1761A0;
+$text-color: #a0a0a0;
+$light-color: #e0e0e0;
+$green-color: #74D14C;
+
+footer {
+  bottom: 10px;
+}
+
+body {
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: $font-stack;
+  color: $primary-color;
+}
+h1{
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.2em;
+  border-bottom: 1px solid $green-color;
+}
+h3 {
+  font-size: 1.1em;
+}
+#menu {
+
+  ul {
+    list-style: none;
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    height: inherit;
+    border-top: 1px solid $green-color;
+    border-bottom: 1px solid $green-color;
+
+    li{
+      width: 100%;
+      display: inline-block;
+      float: none;
+      height: initial;
+      border: 0;
+      //border-bottom: 1px solid $light-color;
+
+      a {
+        color: $green-color;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1em;
+        vertical-align: middle;
+        border-radius: 0;
+        padding: 2px;
+        margin: 0;
+
+        height: initial;
+      }
+
+      a:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

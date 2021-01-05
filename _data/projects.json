@@ -1,0 +1,23 @@
+{
+  "breakout": {
+    "name": "Breakout",
+    "title": "A tribute to Breakout game by Atari, Inc",
+    "desc": [
+      "A tribute to the Breakout game, an arcade game developed by Atari, Inc and introduced on May 13, 1976. It was conceptualized by Nolan Bushnell and Steve Bristow, and influenced by the 1972 arcade game Pong, also by Atari."
+    ],
+    "genres": [
+      "arcade",
+      "puzzle"
+    ],
+    "multiPlayer": false,
+    "github": "/lumi-entertainment/breakout",
+    "startDate": "2017-03-18",
+    "endDate": "",
+    "dev": [
+      {
+        "name": "xflofoxx",
+        "twitter": ""
+      }
+    ]
+  }
+}

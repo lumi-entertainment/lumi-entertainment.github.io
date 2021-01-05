@@ -5,3 +5,13 @@ encoding: utf-8
 repository: lumi-entertainment/lumi-entertainment.github.io
 github: lumi-entertainment/lumi-entertainment.github.io
 build_revision: now
+
+collections:
+ - projects
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project

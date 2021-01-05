@@ -1,0 +1,18 @@
+---
+layout: default
+title: Projects
+---
+
+<div id="projects">
+    <h2>Projects</h2>
+    {% for project in site.projects %}
+    <section>
+        <h3>
+            <a href="{{ project.url }}">
+                {{ project.title }}:
+            </a>
+        </h3>
+        <p>{{ site.data.projects[project.key].desc }}</p>
+    </section>
+    {% endfor %}
+</div>
